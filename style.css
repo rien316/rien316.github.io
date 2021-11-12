@@ -24,3 +24,14 @@
     h1 {
         font-family: sans-serif;
     }
+lines (54 sloc)  1.15 KB
+   
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
