@@ -5,7 +5,15 @@
         background-color: #223645;
         overflow: hidden;
     }
-    
+    label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+form li + li {
+  margin-top: 1em;
+}
     li {
         float: left;
     }
